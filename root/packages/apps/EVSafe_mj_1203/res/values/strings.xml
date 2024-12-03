@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- xml구문은 공백없이 반드시 이걸로 시작 필요 -->
+<resources>
+    <!-- 일종의 UI config 파일 기능 -->
+    <string name ="app_name"> EVSafe </string>
+    <string name ="welcome_message"> Wecome to EVSafe!</string>
+    <string name="battery_status">Battery Level:</string>
+    <string name="battery_status_format">Battery Level: %1$d%%</string>
+    <string name="gear_status">Gear Status: </string>
+    <string name="gear_status_format">Gear Status: %1$s</string>
+    <string name="speed_status">Speed: </string>
+    <string name="speed_status_format">Speed: %1$.2f km/h </string>
+    <string name ="error_message"> Error: Value must be &lt; 100 </string>
+</resources>
