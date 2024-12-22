@@ -14,16 +14,11 @@ EVSafe App Service
    * distance = (CURRENT_BATTERY_LEVEL / MAX_BATTERY_LEVEL) * drive_factor * BASE_RANGE (km)
 * path: aosp/packages/apps/EVSafe
 
-STEP 2 (🔥 WORKING ON)
+STEP 2 (✅ COMPLETE)
 EVSafe System Service
-*  Disable Game App on Gear D
-   *  1) Gear Status Check on System Service
-   *  2) Disable Game App
-*  EV Battery Level Check on System Service
-   *  1) Input Battery Level
-   *  2) EV Battery level Check on System Service
+*  Notification on system
 
-STEP 3 (TBU)
-EVSafe System Service + System Alarm
-*  Disable Game App on Gear D With Toast Message
-*  Low Battery Notification
+STEP 3 (🔥 WORKING ON)
+EVSafe Service on layer of CarService 
+*  Add a function at CarPropertyService 
+*  A new Service, EVSafeService communicating with CarPropertyService
