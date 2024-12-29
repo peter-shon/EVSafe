@@ -23,6 +23,7 @@ STEP 3 (🔥 WORKING ON) (~'25.1/10)
 EVSafe Service on layer of CarService 
 *  Adding a function at CarPropertyService
    * calling a battery percentage like battery level, capacity
+   * The goal is to process the battery percentage calculation within the CarService layer.
      * registeration ID of batterty percentage in VehichlePropertyIds.java (Done, 12/28)
      * modifying CarPropertyService (12/29)
      * Validating calling of battery percentage in EVSafe app (12/30)    
