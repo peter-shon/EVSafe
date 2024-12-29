@@ -17,8 +17,13 @@ EVSafe App Service
 STEP 2 (✅ COMPLETE)
 EVSafe System Service
 *  Notification on system
+*  * path: aosp/packages/apps/EVSafe
 
-STEP 3 (🔥 WORKING ON)
+STEP 3 (🔥 WORKING ON) (~'25.1/10)
 EVSafe Service on layer of CarService 
-*  Add a function at CarPropertyService 
+*  Adding a function at CarPropertyService
+   * calling a battery percentage like battery level, capacity
+     * registeration ID of batterty percentage in VehichlePropertyIds.java (Done, 12/28)
+     * modifying CarPropertyService (12/29)
+     * Validating calling of battery percentage in EVSafe app (12/30)    
 *  A new Service, EVSafeService communicating with CarPropertyService
