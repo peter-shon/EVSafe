@@ -17,7 +17,7 @@ EVSafe App Service
 STEP 2 (✅ COMPLETE)
 EVSafe System Service
 *  Notification on system
-*  * path: aosp/packages/apps/EVSafe
+*  path: aosp/packages/apps/Car/EVSafeService
 
 STEP 3 (🔥 WORKING ON) (~'25.1/10)
 EVSafe Service on layer of CarService 
