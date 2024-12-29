@@ -27,3 +27,7 @@ EVSafe Service on layer of CarService
      * modifying CarPropertyService (12/29)
      * Validating calling of battery percentage in EVSafe app (12/30)    
 *  A new Service, EVSafeService communicating with CarPropertyService
+Replacing for loop with callback in EVSafeService 
+
+Structure of CarPropertyService
+Reference: https://wp.me/p4TZ8b-p8
