@@ -19,15 +19,16 @@ EVSafe System Service
 *  Notification on system
 *  path: aosp/packages/apps/Car/EVSafeService
 
-STEP 3 (🔥 WORKING ON) (~'25.1/10)
+STEP 3 (🔥 WORKING ON) 
 EVSafe Service on layer of CarService 
-*  Adding a function at CarPropertyService
+*  Adding a function at CarPropertyService (permission error)
    * calling a battery percentage like battery level, capacity
    * The goal is to process the battery percentage calculation within the CarService layer.
      * registeration ID of batterty percentage in VehichlePropertyIds.java (Done, 12/28)
      * modifying CarPropertyService (12/29)
      * Validating calling of battery percentage in EVSafe app (12/30)    
-*  A new Service, EVSafeService communicating with CarPropertyService
+*  A new Service, EVSafeService communicating with CarPropertyService (build error)
+*  
 Replacing for loop with callback in EVSafeService 
 
 Structure of CarPropertyService
