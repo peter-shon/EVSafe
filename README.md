@@ -1,35 +1,12 @@
-This is a DEMO project of AOSP automotive (with Chank0228)
+AAOS 프레임워크 데모 구현 2차 시연 ('25.1/17)
 
-STEP 1 (✅ COMPLETE)
-EVSafe App Service
-*  Gear Status Check and Display : P/R/N/D
-*  EV Battery level Display : (CURRENT_BATTERY_LEVEL / MAX_BATTERY_LEVEL) * 100 (%)
-*  Current Speed Display
-*  Available Distance Display
-   * BASE_RANGE = 450 (km)
-   * drive_factor
-      * 1 if speed< 80
-      * 0.7 if speed >80 and speed < 100
-      * 0.5 if speed > 100
-   * distance = (CURRENT_BATTERY_LEVEL / MAX_BATTERY_LEVEL) * drive_factor * BASE_RANGE (km)
-* path: aosp/packages/apps/EVSafe
+1. 1차 대비 주요 업데이트 소개
+  *CarService 구현
+     *경로: packages/services/Car/service/src/com/android/car/evsafeservice
+     *서비스명: EVSafeService
+  *차량 파라미터 호출 위치 기존 api -> Service로 변경
+  *차량 파라미터 업데이트 방법 기존 for문 -> Callback로 변경
 
-STEP 2 (✅ COMPLETE)
-EVSafe System Service
-*  Notification on system
-*  path: aosp/packages/apps/Car/EVSafeService
+2. 기능 작동 시연
 
-STEP 3 (🔥 WORKING ON) 
-EVSafe Service on layer of CarService 
-*  Adding a function at CarPropertyService (permission error)
-   * calling a battery percentage like battery level, capacity
-   * The goal is to process the battery percentage calculation within the CarService layer.
-     * registeration ID of batterty percentage in VehichlePropertyIds.java (Done, 12/28)
-     * modifying CarPropertyService (12/29)
-     * Validating calling of battery percentage in EVSafe app (12/30)    
-*  A new Service, EVSafeService communicating with CarPropertyService (build error)
-*  
-Replacing for loop with callback in EVSafeService 
-
-Structure of CarPropertyService
-Reference: https://wp.me/p4TZ8b-p8
+3. 코드 설명
